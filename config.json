@@ -1,0 +1,15 @@
+{
+    "select_channel":1,
+    "start_day":"2022-04-20",
+    "end_day":"2022-04-29",
+	"channel_map": {
+		"1": {
+			"name": "11混服",
+			"log_url": "https://dgz-11hf-web.ssl.daxianghuyu.cn/domain-web/client/query/client-report.%s.log"
+		},
+		"2": {
+			"name": "12渠道",
+			"log_url": "https://p6-12dgyx-webs.ssl.daxianghuyu.cn/domain-web/client/query/client-statistics.%s.log"
+		}
+	}
+}

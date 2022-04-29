@@ -1,0 +1,17 @@
+使用说明:
+    1.自行添加config.json里的渠道
+    2.修改select_channel为自己要处理的渠道
+    3.修改start_day(含)和end_day(含)为自己要处理的时间区间
+    4.运行run.bat
+
+目录结构:
+    1.log文件夹: 用于存放下载的各渠道日志
+    2.config.json: 配置文件
+    3.error_log.xlsx: 错误记录Excel表
+    4.log_processing_tool.py: 日志处理脚本
+    5.run.bat: 一键运行批处理文件
+    6.说明.txt: 说明文档
+    
+注意:
+    1.运行脚本时要避免error_log.xlsx被占用
+    2.运行失败请检查import的相关库本地是否有添加
